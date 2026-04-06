@@ -1,0 +1,4 @@
+name: Birthdays
+version: '1.0-SNAPSHOT'
+main: net.civicraft.birthdays.Birthdays
+api-version: '1.21'

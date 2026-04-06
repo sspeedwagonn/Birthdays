@@ -1,0 +1,24 @@
+#
+# Change Birthday: true|false
+#
+# If true, a player can freely change their birthday.
+# If false, a player can only set their birthday once.
+# It can be changed if the player has the permission "birthdays.change.self"
+# or if someone with the permission "birthday.change.others" changes it for them
+change-birthday: false
+
+#
+# Birthday Formatting
+#
+# m = Month
+# d = Day
+# Year is currently not available.
+birthday-format: "mm-dd"
+
+#
+# Discord Connection - UNDER CONSTRUCTION
+#
+# If you want to announce birthdays
+# discord-enabled: false
+# token: ""
+# birthday-channel: ""
