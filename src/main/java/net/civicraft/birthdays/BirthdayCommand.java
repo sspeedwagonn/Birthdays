@@ -13,10 +13,13 @@ public class BirthdayCommand implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender commandSender, @NotNull Command command, @NotNull String s, @NotNull String @NotNull [] strings) {
         if (commandSender instanceof Player player) {
-
+            // if player has no birthday
+            // add birthday
         } else {
             commandSender.sendMessage(Component.text("You must be a player to use this command!", NamedTextColor.RED));
             return false;
         }
+
+        return true;
     }
 }

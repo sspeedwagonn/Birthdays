@@ -7,7 +7,7 @@ public final class Birthdays extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        saveDefaultConfig();
     }
 
     @Override

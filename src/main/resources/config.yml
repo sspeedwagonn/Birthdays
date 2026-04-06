@@ -13,7 +13,7 @@ change-birthday: false
 # m = Month
 # d = Day
 # Year is currently not available.
-birthday-format: "mm-dd"
+# birthday-format: "mm-dd"
 
 #
 # Discord Connection - UNDER CONSTRUCTION
